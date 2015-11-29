@@ -69,7 +69,7 @@ CREATE PROCEDURE createAuditTriggers(p_tabname LIKE systables.tabname);
 
 END PROCEDURE;
 	 
-CREATE PROCEDURE createAuditTables(p_tabname LIKE systables.tabname, p_dbs CHAR(30), p_extsize INT);
+CREATE PROCEDURE createAuditForTable(p_tabname LIKE systables.tabname, p_dbs CHAR(30), p_extsize INT);
 
    DEFINE p_cmd CHAR(1000);
    DEFINE tmp CHAR(100);
