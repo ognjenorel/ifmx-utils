@@ -17,7 +17,7 @@ Create all the procedures and a view in your database. Determine where you'd lik
     execute procedure create_conversion_statements('~\my_working_dir'); 
     execute procedure create_conversion_scripts('~\my_working_dir'); 
 
-This will result in two files being created in ~\my_working_dir directory: unloads.sql which can be run at any time to unload the data, and a series of loadXX.cql files (where XX is ordered number) which can be run to load the data in the graph database.
+This will result in several files being created in ~\my_working_dir directory: unloads.sql which can be run at any time to unload the data, and a series of loadXX.cql files (where XX is ordered number) which can be run to load the data in the graph database.
 
 ## Supported Informix versions
 
