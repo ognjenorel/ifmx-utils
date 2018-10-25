@@ -11,3 +11,6 @@ Utility to create a copy of a table - structure, constraints and indices as well
 
 #### Migrate onconfig
 Groovy script to help migrating actual onconfig file to a newer version. See more info at: https://ifmx.wordpress.com/2011/11/02/migrating-your-onconfig/
+
+#### Aggregates
+Several functions and some java code to make aggregates that return not a single number but an image which provides more info about the aggreagated data
