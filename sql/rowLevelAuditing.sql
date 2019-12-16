@@ -57,7 +57,7 @@ SELECT systables.tabname
 CREATE PROCEDURE createAuditTriggers(p_tabname LIKE systables.tabname);
 -- trigname: _tabname(insert|update|delete) 
 
-   DEFINE p_tabname LIKE systables.tabname;
+--   DEFINE p_tabname LIKE systables.tabname;
    DEFINE p_cmd LVARCHAR(1000);
    DEFINE tmp CHAR(100);
    DEFINE operation CHAR(6);
