@@ -1,4 +1,4 @@
--- Copyright 2021 Ognjen Orel, Petra Udovičić, Bjanka Bašiđ
+-- Copyright 2021 Ognjen Orel, Petra Udovičić, Bjanka Bašić
 --
 -- This file is part of ifmx utilities.
 --
