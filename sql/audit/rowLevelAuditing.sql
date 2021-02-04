@@ -1,6 +1,5 @@
 4 lines (44 sloc) 1.92 KB
--- Copyright 2015 Ognjen Orel
--- See more at: https://ifmx.wordpress.com/2015/11/29/simple-and-meaningful-row-level-auditing/
+-- Copyright 2020 Ognjen Orel, Petra Udovičić, Bjanka Bašić
 --
 -- This file is part of ifmx utilities.
 --
@@ -16,6 +15,8 @@
 --
 -- You should have received a copy of the GNU General Public License
 -- along with ifmx utilities. If not, see <http://www.gnu.org/licenses/>.
+
+-- See more at: https://ifmx.wordpress.com/2015/11/29/simple-and-meaningful-row-level-auditing/
 
 
 CREATE VIEW vsyscolumns (tabname, colname, colno, type) AS
